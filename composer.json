@@ -1,0 +1,41 @@
+{
+  "name": "mda-khi/number-to-word",
+  "version": "1.0.0",
+  "scripts": {
+    "tests": "./vendor/bin/phpunit tests",
+    "test:dox": "./vendor/bin/phpunit --testdox tests"
+  },
+  "license": "",
+  "autoload": {
+    "psr-4": {
+      "MdAkhi\\NumberToWord\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Mohammad Amanalikhani",
+      "email": "md.akhi.ir@gmail.com",
+      "homepage": "https://www.md.akhi.ir",
+      "role": "Developer"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://packages.example.com"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/md-akhi/"
+    }
+  ],
+  "autoload-dev": {
+    "psr-4": {
+      "NumbersToWordsPhp\\Test\\": "test/"
+    }
+  },
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "^9"
+  }
+}
