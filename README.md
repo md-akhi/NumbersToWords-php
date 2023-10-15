@@ -1,3 +1,7 @@
-# number-2-text
-Number to Text Converter
-persian|english
+# number-to-word
+
+Number to Word Converter
+
+##composer
+
+composer require mdakhi/
